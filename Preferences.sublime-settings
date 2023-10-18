@@ -1,0 +1,17 @@
+{
+	"theme": "Adaptive.sublime-theme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"font_size": 11,
+	"font_options": ["directwrite", "subpixel_antialias"],
+	"font_face": "Fira Code",
+	"color_scheme": "subtil_witness.sublime-color-scheme",
+	"caret_extra_top": 4,
+	"caret_extra_bottom": 4,
+	"caret_extra_width": 1,
+	"block_caret": true,
+	"highlight_line": true,
+	"highlight_line_number": false,
+}

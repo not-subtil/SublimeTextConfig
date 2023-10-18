@@ -1,0 +1,53 @@
+{
+    "name": "Witness Color Scheme",
+    "globals": {
+        "background": "#1c1c1c",
+        "gutter": "#1c1c1c",
+        "gutter_foreground": "lightgreen",
+        "line_highlight": "rgba(144, 238, 144, 0.08)",
+        "fold_marker": "red",
+        "accent": "lightgreen",
+        "block_caret": "rgba(144, 238, 144, 0.6)",
+        "brackets_options": "underline",
+        "caret": "rgba(144, 238, 144, 1)",
+        "foreground": "#d3b58d",
+        "inactive_selection": "#0049f5",
+        "selection": "blue",
+        "tags_options": "underline"
+    },
+    "rules": [
+        {
+            "scope": "comment",
+            "foreground": "#ffff00"
+        },
+        {
+            "scope": "constant.language",
+            "foreground": "#79ffcf"
+        },
+        {
+            "scope": "entity.name, keyword.declaration, meta.annotation, meta.path, meta.struct meta.block, meta.tag, support.variable, variable, variable.other.readwrite",
+            "foreground": "white"
+        },
+        {
+            "scope": "entity.name.constant, keyword.control, meta.class entity.name.class, meta.constant, meta.function.parameters, meta.struct entity.name.struct, meta.struct meta.group, storage.type, support.constant, support.type, variable.type",
+            "foreground": "lightgreen"
+        },
+        {
+            "scope": "entity.name.enum, keyword.operator, meta.block meta.method entity.name.function, meta.block storage.modifier, meta.class storage.type, meta.function-call variable.function, meta.preprocessor, meta.struct storage.type - meta.block, meta.template storage.type, punctuation.section, variable.other",
+            "foreground": "#d3b58d"
+        },
+        {
+            "scope": "entity.name.function, keyword, storage",
+            "foreground": "white"
+        },
+        {
+            "scope": "invalid",
+            "foreground": "darkseagreen",
+            "background": "#504038"
+        },
+        {
+            "scope": "string",
+            "foreground": "#d3b58d"
+        }
+    ]
+}
